@@ -1,0 +1,57 @@
+.ticker {
+
+  .toolbar {
+      background-color: #ff00009c;
+
+       > div {
+        color: white;
+        text-align: center;
+        padding: 20px;
+        box-shadow: 0px 18px 20px -10px rgb(255 35 0 / 63%);
+       }
+
+    .title {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .img-social-media {
+      height: 20px;
+      vertical-align: middle;
+      margin: 0 7px;
+      cursor: pointer;
+    }
+  }
+
+
+
+  ngu-carousel {
+    padding: 20px 40px;
+
+    .card {
+        min-height: 150px;
+
+      display: flex;
+      align-items: flex-end;
+      flex-direction: column;
+      border-radius: 0;
+      margin: 20px 0;
+      box-shadow: 0px 18px 20px -10px rgb(255 35 0 / 63%);
+      color: white;
+      background-color: black;
+
+      .date {
+        color: red;
+      }
+
+      .mat-card-header {
+          
+        .mat-card-image {
+          width: 70px;
+          height: 70px;
+          margin: 0px;
+        }
+      }
+    }
+  }
+}
